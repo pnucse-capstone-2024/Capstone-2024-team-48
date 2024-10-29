@@ -21,10 +21,16 @@ QNX 운영체제의 보안 취약점을 식별하고 분석하는 것을 목표�
 
 
 ### 2. 상세설계
-#### 2.1. 시스템 구성도
-> 시스템 구성도(infra, front, back등의 node 간의 관계)의 사진을 삽입하세요.
+#### 2.1.1 암호 알고리즘 경량화 상세설계
+알고리즘 설명 | 알고리즘 설명
+:---:|:---:|
+<img src = "https://github.com/user-attachments/assets/9b07136e-170d-4d5a-b072-8b4aca0bbe01"> | <img src = "https://github.com/user-attachments/assets/b50ac5f6-8ffb-40cc-8287-c1efecc5f6c8">
+사전연산 알고리즘|바이트 수를 경량화한 알고리즘
+<img src = "https://github.com/user-attachments/assets/83fda375-5d82-43af-9585-9bd754ff1322" width = "50%" height = "50%"> | <img src = "https://github.com/user-attachments/assets/284c4b0b-6e97-4a1e-b6c3-e252a40ffb4c">
+ShiftRows 제거 알고리즘|MixColumns 사전연산 알고리즘
+#### 2.1.2 QNX 취약점 분석
 
-#### 2.1. 사용 기술
+#### 2.2. 사용 기술
 
 - Virtual Box - 7.14
 - Network Host/Ping Scan - Nmap
@@ -71,7 +77,50 @@ QNX 운영체제의 보안 취약점을 식별하고 분석하는 것을 목표�
 - 만약 실행이 되지 않는다면 컴퓨터의 BIOS 설정에 진입하여 CPU의 가상화 기술인 VT-x를 활성화한다.
 
 ### 4. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
+[![졸업과제 48팀](http://img.youtube.com/vi/yt2jiEOSTUk&t=135s/0.jpeg)](https://www.youtube.com/watch?v=yt2jiEOSTUk&t=135s)
 
 ### 5. 팀 소개
-> 팀원 소개 & 구성원 별 역할 분담 & 간단한 연락처를 작성하세요.
+
+<div align = "center">
+  <table align = "center">
+    <tr align = "center">
+      <td>이름</td>
+      <td>임준식</td>
+      <td>정혁준</td>
+      <td>김성문</td>
+    </tr>
+    <tr align = "center">
+      <td>역할</td>
+      <td>1. AES 암호 알고리즘 경량화 <br/>
+          2. AES 암호 알고리즘 테스트벡터로 검증 <br/>
+          3. 성능 측정<br/>
+          4. 최종 보고서 작성
+      </td>
+      <td>
+          1. QNX 취약점 분석<br/>
+          2. ECC 암호 알고리즘 테스트벡터로 검증<br/>
+          3. QNX 기존의 취약점 외에 다른 취약점 탐색
+          3. 최종 보고서 작성<br/>
+      </td>
+      <td>
+          1. ARIA 암호 알고리즘 테스트벡터로 검증<br/>
+          2. 알고리즘 경량화 및 QNX 취약점 분석을 논문을 보고 방안 제시<br/>
+          3. 최종 보고서 작성 <br/>
+          4. 포스터 제작 <br/>
+      </td>
+    </tr>
+   <tr align = "center"> 
+     <td>연락처</td>
+     <td>010-2559-9862</td>
+     <td>010-5580-8464</td>
+     <td>010-4691-2736</td>
+   </tr>
+   <tr align = "center">
+     <td>깃허브</td>   
+     <td> <a href = "https://github.com/rkrzy">임준식</a></td>
+     <td> <a href = "https://github.com/juni0317">정혁준</a></td>
+     <td> <a href = "https://github.com/doorcs">김성문</a></td>          
+   </tr>
+</table>
+</div>
+
