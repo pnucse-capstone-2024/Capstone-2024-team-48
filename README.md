@@ -29,10 +29,14 @@ QNX 운영체제의 보안 취약점을 식별하고 분석하는 것을 목표�
 <img src = "https://github.com/user-attachments/assets/83fda375-5d82-43af-9585-9bd754ff1322" width = "50%" height = "50%"> | <img src = "https://github.com/user-attachments/assets/284c4b0b-6e97-4a1e-b6c3-e252a40ffb4c">
 ShiftRows 제거 알고리즘|MixColumns 사전연산 알고리즘
 #### 2.1.2 QNX 취약점 분석
-
+공격 시연 | 공격 시연
+:---:|:---:|
+<img src = "https://github.com/user-attachments/assets/aead9fbc-4037-4ed0-a5b1-3e676f8751a3" width = "50%" height = "50%" > | <img src = "https://github.com/user-attachments/assets/cc6e058a-1b03-411d-a799-81f58262aac4" width = "50%" height = "50%" >
+Nmap | Ping Flooding
+<img src = "https://github.com/user-attachments/assets/d2e6e6f7-ba57-4b47-a0d8-d4a0008d315a" width = "50%" height = "50%"> | <img src = "https://github.com/user-attachments/assets/2ced559b-2418-4018-bd27-4401722ccf9f" width = "50%" height = "50%" >
 #### 2.2. 사용 기술
 
-- Virtual Box - 7.14
+- Virtual Box - 7.1.4
 - Network Host/Ping Scan - Nmap
 - Telnet, Pingflooding
 - Python - v3.1
