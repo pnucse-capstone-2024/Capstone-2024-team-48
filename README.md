@@ -81,7 +81,7 @@ Nmap | Ping Flooding
 - 만약 실행이 되지 않는다면 컴퓨터의 BIOS 설정에 진입하여 CPU의 가상화 기술인 VT-x를 활성화한다.
 
 ### 4. 소개 및 시연 영상
-[![졸업과제 48팀](http://img.youtube.com/vi/yt2jiEOSTUk&t=135s/0.jpeg)](https://www.youtube.com/watch?v=yt2jiEOSTUk&t=135s)
+[![졸업과제 48팀](http://img.youtube.com/vi/yt2jiEOSTUk/0.jpg)](https://www.youtube.com/watch?v=yt2jiEOSTUk&t=135s)
 
 ### 5. 팀 소개
 
